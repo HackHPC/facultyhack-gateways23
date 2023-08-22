@@ -1,13 +1,15 @@
-# HPC in the City: Denver
-This site will act as the main event site for SC23's HPC in the City: Denver Hackathon. 
+# FacultyHack@Gateways23
+This site will act as the main event site for the Faculty Hack @ Gateways 2023. 
 
 ## Quick Links
-* [Supercomputing 23 (SC23)](https://sc23.supercomputing.org/)
-* [Prior HPC in the City](https://hackhpc.github.io/HPCintheCity22/)
-* Registration (Opening Soon)
+* [Faculty Hack Registration](https://docs.google.com/forms/d/e/1FAIpQLSe9-tQfuq7YDMs_CVudcaV7uLtZ7DMqFjs6ri-ddd8wf2DX3A/viewform?pli=1)
+* [Gateways23 Conference](https://sciencegateways.org/gateways2023-attend)
+* [Prior Faculty Hack](https://hackhpc.github.io/FacultyHack-Gateways22)
+
 
 ## Current Supporters
-* Texas Advanced Computing Center's STAR Partners
+* SGX3|SGCI
+* Texas Advanced Computing Center
 * Omnibond Systems
 
-<br><img src="https://hackhpc.github.io/HPCintheCity23/assets/imgs/logos/SC23-logo.png">
+
