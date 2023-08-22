@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "SC23's HPC in the City: Denver"
+title: "FacultyHack@Gateways23"
 email: "schack@hackhcp.org"
 author: HackHPC
 
@@ -35,7 +35,7 @@ instagram_username: hack_hpc
 linkedin_username: "https://www.linkedin.com/groups/8859728/"
 github_username: HackHPC
 youtube_page: "https://www.youtube.com/@hackhpc2069"
-registration_link: "https://forms.gle/jsjdXQkWh5zmf95P9"
+registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSe9-tQfuq7YDMs_CVudcaV7uLtZ7DMqFjs6ri-ddd8wf2DX3A/viewform?pli=1"
 # medium_username: lorem_ipsum
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
@@ -58,7 +58,7 @@ copyright: "Copyright (cleft) 2018-{currentYear} HackHPC All rights reserved."
 description: > # this means to ignore newlines until "baseurl:"
   This site will act as the main event site for SC23's HPC in the City: Denver Hackathon. 
 
-baseurl: "/hpcinthecity23" # the subpath of your site, e.g. /blog
+baseurl: "/facultyhack-gateways23" # the subpath of your site, e.g. /blog
 url: "https://hackhpc.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "assets/imgs/hackhpclogo-peopleonly.svg" #"assets/favicon.ico" # the favicon for your site
 
@@ -161,7 +161,7 @@ header_pages:
   #- index.html
   - organizers.html
   - resources.html
-  - schedule.html
+  #- schedule.html
   #- about.md
 
 # Page default value

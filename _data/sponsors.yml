@@ -1,8 +1,14 @@
 sponsors: # Used for Sponsors
-  - name: The International Conference for High Performance Computing, Networking, Storage, and Analysis
-    url: https://sc23.supercomputing.org/
-    logo: assets/imgs/logos/sc23_hor_blackcolor@4x.png
-
+  - name: "SGX3"
+    url: https://sciencegateways.org/
+    logo: /assets/imgs/logos/Mediamodifier-Design-Template.png
+    grant:
+      - awardagency: National Science Foundation
+        logo: /assets/imgs/logos/NSF.svg
+        url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2231406
+        description: >
+          SGX3 is funded by the National Science Foundation under award number 2231406. 
+          
   - name: "Science and Technology Affiliates for Research (STAR) Industry Program"
     url: https://www.tacc.utexas.edu/partnerships/star-industry-program/
     logo: assets/imgs/logos/starprogram-logo.png
@@ -23,15 +29,7 @@ sponsors: # Used for Sponsors
         url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1547611
         description: >
           The SGCI is funded by the National Science Foundation under award number ACI-1547611.
-  - name: "SGX3"
-    url: https://sciencegateways.org/
-    logo: /assets/imgs/logos/Mediamodifier-Design-Template.png
-    grant:
-      - awardagency: National Science Foundation
-        logo: /assets/imgs/logos/NSF.svg
-        url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2231406
-        description: >
-          SGX3 is funded by the National Science Foundation under award number 2231406. 
+  
       
 #  - name: Amazon Web Services
 #    url: https://aws.amazon.com/
