@@ -40,7 +40,6 @@ registration_link: "https://forms.gle/B5SDrAEwbnnNW1Uz6"
 # medium_url: lorem_ipsum.medium.com
 # gplus_username:  lorem_ipsum
 
-
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
 # * current year: {currentYear}
@@ -56,7 +55,7 @@ registration_link: "https://forms.gle/B5SDrAEwbnnNW1Uz6"
 copyright: "Copyright (cleft) 2018-{currentYear} HackHPC All rights reserved."
 
 description: > # this means to ignore newlines until "baseurl:"
-  This site will act as the main event site for SC23's HPC in the City: Denver Hackathon. 
+  This site will act as the main event site for SC23's HPC in the City: Denver Hackathon.
 
 baseurl: "/facultyhack-gateways23" # the subpath of your site, e.g. /blog
 url: "https://hackhpc.github.io" # the base hostname & protocol for your site, e.g. https://example.com
@@ -159,9 +158,10 @@ brand_color: "#68c18c" #"#1a8e42"
 # this and add the path to the pages in order as they should show up
 header_pages:
   #- index.html
+  - schedule.html
   - organizers.html
   - resources.html
-  #- schedule.html
+
   #- about.md
 
 # Page default value

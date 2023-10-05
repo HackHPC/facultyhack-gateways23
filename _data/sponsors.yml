@@ -7,18 +7,18 @@ sponsors: # Used for Sponsors
         logo: /assets/imgs/logos/NSF.svg
         url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2231406
         description: >
-          SGX3 is funded by the National Science Foundation under award number 2231406. 
-          
-  - name: "Science and Technology Affiliates for Research (STAR) Industry Program"
-    url: https://www.tacc.utexas.edu/partnerships/star-industry-program/
-    logo: assets/imgs/logos/starprogram-logo.png
-  
+          SGX3 is funded by the National Science Foundation under award number 2231406.
+
   - name: Omnibond Systems
     url: http://omnibond.com/
     logo: /assets/imgs/logos/omnibond.svg
   - name: Texas Advanced Computing Center
     url: https://www.tacc.utexas.edu/
     logo: /assets/imgs/logos/TACC-formal-Black-1c-5602fc8f.svg
+
+  - name: "Voltron Data"
+    url: https://voltrondata.com
+    logo: /assets/imgs/logos/Voltron-Data-logo.jpeg
 
   - name: "Science Gateways Community Institute"
     url: https://sciencegateways.org/
@@ -29,11 +29,14 @@ sponsors: # Used for Sponsors
         url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1547611
         description: >
           The SGCI is funded by the National Science Foundation under award number ACI-1547611.
-  
-      
-#  - name: Amazon Web Services
-#    url: https://aws.amazon.com/
-#    logo: /assets/imgs/logos/AWS_logo_RGB.svg
+
+  - name: "Science and Technology Affiliates for Research (STAR) Industry Program"
+    url: https://www.tacc.utexas.edu/partnerships/star-industry-program/
+    logo: assets/imgs/logos/starprogram-logo.png
+
+  #  - name: Amazon Web Services
+  #    url: https://aws.amazon.com/
+  #    logo: /assets/imgs/logos/AWS_logo_RGB.svg
   - name: HackHPC.org
     url: http://hackhpc.org/
     logo: /assets/imgs/logos/hackhpclogo-only.svg
