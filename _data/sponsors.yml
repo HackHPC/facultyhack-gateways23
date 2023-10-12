@@ -9,16 +9,20 @@ sponsors: # Used for Sponsors
         description: >
           SGX3 is funded by the National Science Foundation under award number 2231406.
 
+  - name: "Oak Ridge National Laboratory"
+    url: https://www.ornl.gov
+    logo: /assets/imgs/logos/2000px-Oak_Ridge_National_Laboratory_logo.svg_.png
+
+  - name: "Voltron Data"
+    url: https://voltrondata.com
+    logo: /assets/imgs/logos/Voltron-Data-logo.jpeg
+
   - name: Omnibond Systems
     url: http://omnibond.com/
     logo: /assets/imgs/logos/omnibond.svg
   - name: Texas Advanced Computing Center
     url: https://www.tacc.utexas.edu/
     logo: /assets/imgs/logos/TACC-formal-Black-1c-5602fc8f.svg
-
-  - name: "Voltron Data"
-    url: https://voltrondata.com
-    logo: /assets/imgs/logos/Voltron-Data-logo.jpeg
 
   - name: "Science Gateways Community Institute"
     url: https://sciencegateways.org/
