@@ -194,7 +194,7 @@
             {% for topic in event.events %}
 
             <li>
-              {{ topic.name }} {% if topic.type %} Type: <em class="event-em" >{{ topic.type }}</em>
+              {{ topic.name }} {% if topic.type %} <em class="event-em" >{{ topic.type }}</em>
               {% endif %}
               {% if topic.description %}
               <p>
