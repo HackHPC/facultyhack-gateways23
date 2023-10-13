@@ -9,22 +9,22 @@
           <p>
           
             <ul class="organizers-socials">
-          <li class="organizers-socials">Socials</li>  
-          <li class="organizers-socials"><a href="mailto:{{ organizer.email }}"><i class="fa-solid fa-envelope"></i></a></li>
+          <li class="organizers-socials">Links:</li>  
+          <li class="organizers-socials"><a class="organizers-socials" href="mailto:{{ organizer.email }}"><i class="fa-solid fa-envelope"></i></a></li>
           {% if organizer.linkedin %}
-          <li class="organizers-socials"><a href="{{ organizer.linkedin }}"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="organizers-socials"><a class="organizers-socials" href="{{ organizer.linkedin }}"><i class="fa-brands fa-linkedin"></i></a></li>
           {% endif %}
 
           {% if organizer.personal_site %}
           
-            <li class="organizers-socials"><a href="{{ organizer.personal_site }}" target="_blank" title="Personal Site">
+            <li class="organizers-socials"><a class="organizers-socials" href="{{ organizer.personal_site }}" target="_blank" title="Personal Site">
               <i class="far fa-id-card"></i>
             </a></li>
           
           {% endif %}
           
           {% if organizer.orcid %}
-           <li class="organizers-socials"><a href="https://orcid.org/{{ organizer.orcid }}" target="_blank" title="ORCID">
+           <li class="organizers-socials"><a class="organizers-socials" href="https://orcid.org/{{ organizer.orcid }}" target="_blank" title="ORCID">
             <i class="fab fa-orcid"></i> 
             </a></li>
           
@@ -32,7 +32,7 @@
 
           {% if organizer.scholar %}
           
-            <li class="organizers-socials"><a href="https://scholar.google.com/citations?user={{ organizer.scholar }}" target="_blank" title="Google Scholar">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://scholar.google.com/citations?user={{ organizer.scholar }}" target="_blank" title="Google Scholar">
               <i class="fab fa-google"></i>
             </a></li>
           
@@ -40,7 +40,7 @@
 
           {% if organizer.publons %}
           
-            <li class="organizers-socials"><a href="https://publons.com/a/{{ organizer.publons }}/" target="_blank" title="Publons">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://publons.com/a/{{ organizer.publons }}/" target="_blank" title="Publons">
               <i class="ai ai-publons"></i>
             </a></li>
           
@@ -48,7 +48,7 @@
 
           {% if organizer.research_gate %}
           
-            <li class="organizers-socials"><a href="https://www.researchgate.net/profile/{{ organizer.research_gate }}/" target="_blank" title="ResearchGate">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://www.researchgate.net/profile/{{ organizer.research_gate }}/" target="_blank" title="ResearchGate">
               <i class="fab fa-researchgate"></i>
             </a></li>
           
@@ -56,7 +56,7 @@
 
           {% if organizer.dblp %}
           
-            <li class="organizers-socials"><a href="{{ organizer.dblp }}/" target="_blank" title="DBLP">
+            <li class="organizers-socials"><a class="organizers-socials" href="{{ organizer.dblp }}/" target="_blank" title="DBLP">
               <i class="ai ai-dblp"></i>
             </a></li>
           
@@ -64,7 +64,7 @@
 
           {% if organizer.semantic_scholar %}
           
-            <li class="organizers-socials"><a href="{{ organizer.semantic_scholar }}/" target="_blank" title="Semantic Scholar">
+            <li class="organizers-socials"><a class="organizers-socials" href="{{ organizer.semantic_scholar }}/" target="_blank" title="Semantic Scholar">
               <i class="ai ai-semantic-scholar"></i>
             </a></li>
           
@@ -72,7 +72,7 @@
 
           {% if organizer.github %}
           
-            <li class="organizers-socials"><a href="https://github.com/{{ organizer.github }}" target="_blank" title="Github">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://github.com/{{ organizer.github }}" target="_blank" title="Github">
               <i class="fab fa-github"></i>
             </a></li>
           
@@ -80,7 +80,7 @@
 
           {% if organizer.gitlab %}
           
-            <li class="organizers-socials"><a href="https://gitlab.com/{{ organizer.gitlab }}" target="_blank" title="Gitlab">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://gitlab.com/{{ organizer.gitlab }}" target="_blank" title="Gitlab">
               <i class="fab fa-gitlab"></i>
             </a></li>
           
@@ -88,7 +88,7 @@
 
           {% if organizer.bitbucket %}
           
-            <li class="organizers-socials"><a href="https://bitbucket.org/{{ organizer.bitbucket }}" target="_blank" title="Bitbucket">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://bitbucket.org/{{ organizer.bitbucket }}" target="_blank" title="Bitbucket">
               <i class="fab fa-bitbucket"></i>
             </a></li>
           
@@ -96,7 +96,7 @@
 
           {% if organizer.google_plus %}
           
-            <li class="organizers-socials"><a href="https://plus.google.com/{{ organizer.google_plus }}" target="_blank" title="Google Plus">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://plus.google.com/{{ organizer.google_plus }}" target="_blank" title="Google Plus">
               <i class="fab fa-google-plus-g"></i>
             </a></li>
           
@@ -112,7 +112,7 @@
 
           {% if organizer.twitter %}
           
-            <li class="organizers-socials"><a href="https://twitter.com/{{ organizer.twitter }}" target="_blank" title="Twitter">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://twitter.com/{{ organizer.twitter }}" target="_blank" title="Twitter">
               <i class="fab fa-twitter"></i>
             </a></li>
           
@@ -120,7 +120,7 @@
 
           {% if organizer.youtube %}
           
-            <li class="organizers-socials"><a href="{{ organizer.youtube }}" target="_blank" title="YouTube">
+            <li class="organizers-socials"><a class="organizers-socials" href="{{ organizer.youtube }}" target="_blank" title="YouTube">
               <i class="fab fa-youtube"></i>
             </a></li>
           
@@ -128,7 +128,7 @@
 
           {% if organizer.facebook %}
           
-            <li class="organizers-socials"><a href="https://www.facebook.com/{{ organizer.facebook }}" target="_blank" title="Facebook">
+            <li class="organizers-socials"><a class="organizers-socials" href="https://www.facebook.com/{{ organizer.facebook }}" target="_blank" title="Facebook">
               <i class="fab fa-facebook-f"></i>
             </a></li>
           
@@ -136,7 +136,7 @@
 
           {% if organizer.instagram %}
           
-            <li class="organizers-socials"><a href="http://instagram.com/{{ organizer.instagram }}" target="_blank" title="Instagram">
+            <li class="organizers-socials"><a class="organizers-socials" href="http://instagram.com/{{ organizer.instagram }}" target="_blank" title="Instagram">
               <i class="fab fa-instagram"></i>
             </a></li>
           
@@ -152,8 +152,8 @@
           
          <div>
           <h2 style="margin-bottom: 1px; margin-top: 1px;"> {{ organizer.name }} </h2>
-          <a href="{{ organizer.site }}" style="font-size: medium; font-weight: bold;">{{ organizer.affiliation}}</a>
-          <strong>{{ organizer.aff }}</strong>  <em>{{ organizer.location }}</em> 
+          <a class="organizer-accent" href="{{ organizer.site }}" >{{ organizer.affiliation}}</a>
+          <strong class="organizer-accent">{{ organizer.aff }}</strong>  <em>{{ organizer.location }}</em> 
         </div>
       
           <div>
