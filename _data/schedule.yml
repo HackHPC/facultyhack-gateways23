@@ -42,11 +42,11 @@ general_schedule:
     events:
       - name: Gateways23 Poster Session Overview
         type: Training
-      #        links:
-      #          - title: Slide Deck
-      #            icon: fa-regular fa-file-pdf
-      #            url: "assets/slides/Kickoff.pdf"
-      #            iconcolor: red
+        links:
+          - title: Poster Template
+            icon: fa-regular fa-file-powerpoint
+            url: "assets/slides/pre-event_training/2023_FacultyHack-GatewaysPoster-withfeedback.pptx"
+            iconcolor: darkred
       #          - title: YouTube Video
       #            icon: "fab fa-youtube" #fa-regular fa-file-pdf
       #            iconcolor: red
