@@ -216,8 +216,10 @@ html {
 
     .footer-badge {
       width: 25%;
+      margin: auto;
+      text-align: middle;
       img {
-        margin: auto;
+        width: 60%;
         
         //object-fit: scale-down;
       }

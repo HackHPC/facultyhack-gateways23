@@ -396,9 +396,11 @@ html[data-scroll-status=down] .framework .sidebar {
 }
 .site-footer .wrapper .footer-container .footer-badge {
   width: 25%;
+  margin: auto;
+  text-align: middle;
 }
 .site-footer .wrapper .footer-container .footer-badge img {
-  margin: auto;
+  width: 60%;
 }
 .site-footer .wrapper .footer-container .footer-sponsors {
   width: 33%;
