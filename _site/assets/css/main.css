@@ -395,12 +395,14 @@ html[data-scroll-status=down] .framework .sidebar {
   vertical-align: top;
 }
 .site-footer .wrapper .footer-container .footer-badge {
-  width: 25%;
-  margin: auto;
+  width: 33%;
+  margin: 20px;
   text-align: middle;
+  text-align: right;
 }
 .site-footer .wrapper .footer-container .footer-badge img {
-  width: 60%;
+  width: 70%;
+  margin-right: 20px;
 }
 .site-footer .wrapper .footer-container .footer-sponsors {
   width: 33%;

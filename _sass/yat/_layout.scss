@@ -215,11 +215,13 @@ html {
     
 
     .footer-badge {
-      width: 25%;
-      margin: auto;
+      width: 33%;
+      margin: 20px;
       text-align: middle;
+      text-align: right;
       img {
-        width: 60%;
+        width: 70%;
+        margin-right: 20px;
         
         //object-fit: scale-down;
       }
