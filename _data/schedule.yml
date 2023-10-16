@@ -47,6 +47,10 @@ general_schedule:
             icon: fa-regular fa-file-powerpoint
             url: "assets/slides/pre-event_training/2023_FacultyHack-GatewaysPoster-withfeedback.pptx"
             iconcolor: darkred
+          - title: Zoom Virtual Background
+            icon: "fa-solid fa-file-image"
+            url: "assets/imgs/SGX3FacultyHack2023_ZoomBG1.png"
+            iconcolor: blue 
       #          - title: YouTube Video
       #            icon: "fab fa-youtube" #fa-regular fa-file-pdf
       #            iconcolor: red
