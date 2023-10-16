@@ -4,7 +4,7 @@
 
 {% if site.data.schedule.mergedicsfile %}  
   <p>
-  <a href="{{ site.data.schedule.mergedicsfile | prepend: site.baseurl }}" style="color: orangered; border: 2px solid darkgrey; padding: 10px; margin: 5px; border-radius: 8px;"> <i class="fas fa-calendar-plus"></i> Download Calendar File with all Event Sessions (ICS)</a>
+  <a href="{{ site.data.schedule.mergedicsfile | prepend: site.baseurl }}" style="color: orangered; border: 2px solid darkgrey; padding: 10px; margin: 10px; border-radius: 8px;"> <i class="fas fa-calendar-plus"></i> Download Calendar File with all Event Sessions (ICS)</a>
 </p>
 
 {% endif %}
@@ -51,13 +51,13 @@
         <p>
           {% if event.zoomlink %}
           <a href="{{ event.zoomlink }}"
-            style="color: blue; border: 1px solid blue; padding: 10px; margin: 5px; border-radius: 8px;"><i
+            style="color: blue; border: 1px solid blue; padding: 10px; margin: 10px; border-radius: 8px;"><i
               class="fa-solid fa-video"> </i> Zoom</a>
           {% endif %}
 
           {% if event.icsfile %}
           <a href="{{ event.icsfile }}"
-            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 5px; border-radius: 8px;"><i
+            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 10px; border-radius: 8px;"><i
               class="fas fa-calendar-plus"> </i> Add to your Calendar (ICS) </a>
 
           {% endif %}
@@ -98,7 +98,7 @@
                     {% for link in topic.links %}
                     {% if link.url contains '://' -%}
                     <a href="{{ link.url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;">
+                      style="color: grey; border: 1px solid grey; padding: 5px; margin: 10px; border-radius: 8px;">
 
                       {% if link.icon %}
                       <i class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
@@ -107,7 +107,7 @@
                     {% endif %}
                     {%- else -%}
                     <a href="{{ link.url | relative_url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;"><i
+                      style="color: grey; border: 1px solid grey; padding: 5px; margin: 10px; border-radius: 8px;"><i
                         class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
                     {% endif %}
                     {% endfor %}
@@ -173,12 +173,12 @@
         {% if event.zoomlink %}
         <p>
           <a href="{{ event.zoomlink }}"
-            style="color: blue; border: 1px solid blue; padding: 10px; margin: 5px; border-radius: 8px;"><i
+            style="color: blue; border: 1px solid blue; padding: 10px; margin: 10px; border-radius: 8px;"><i
               class="fa-solid fa-video"> </i> Zoom</a>
           {% endif %}
           {% if event.icsfile %}
           <a href="{{ event.icsfile }}"
-            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 5px; border-radius: 8px;"><i
+            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 10px; border-radius: 8px;"><i
               class="fas fa-calendar-plus"> </i> Add to your Calendar (ICS) </a>
           {% endif %}
         </p>
@@ -211,7 +211,7 @@
                     {% for link in topic.links %}
                     {% if link.url contains '://' -%}
                     <a href="{{ link.url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;">
+                      style="color: grey; border: 1px solid grey; padding: 5px; margin: 10px; border-radius: 8px;">
                       {% if link.icon %}
                       <i class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
                     {% else %}
@@ -219,7 +219,7 @@
                     {% endif %}
                     {%- else -%}
                     <a href="{{ link.url | relative_url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;"><i
+                      style="color: grey; border: 1px solid grey; padding: 5px; margin: 10px; border-radius: 8px;"><i
                         class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
                     {% endif %}
                     {% endfor %}
