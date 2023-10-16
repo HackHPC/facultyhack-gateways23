@@ -57,7 +57,7 @@
 
           {% if event.icsfile %}
           <a href="{{ event.icsfile }}"
-            style="color: darkred; border: 1px solid darkred; padding: 10px; border-radius: 8px;"><i
+            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 5px; border-radius: 8px;"><i
               class="fas fa-calendar-plus"> </i> Add to your Calendar (ICS) </a>
 
           {% endif %}
@@ -98,7 +98,7 @@
                     {% for link in topic.links %}
                     {% if link.url contains '://' -%}
                     <a href="{{ link.url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; border-radius: 8px;">
+                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;">
 
                       {% if link.icon %}
                       <i class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
@@ -107,7 +107,7 @@
                     {% endif %}
                     {%- else -%}
                     <a href="{{ link.url | relative_url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; border-radius: 8px;"><i
+                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;"><i
                         class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
                     {% endif %}
                     {% endfor %}
@@ -178,7 +178,7 @@
           {% endif %}
           {% if event.icsfile %}
           <a href="{{ event.icsfile }}"
-            style="color: darkred; border: 1px solid darkred; padding: 10px; border-radius: 8px;"><i
+            style="color: darkred; border: 1px solid darkred; padding: 10px; margin: 5px; border-radius: 8px;"><i
               class="fas fa-calendar-plus"> </i> Add to your Calendar (ICS) </a>
           {% endif %}
         </p>
@@ -211,7 +211,7 @@
                     {% for link in topic.links %}
                     {% if link.url contains '://' -%}
                     <a href="{{ link.url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; border-radius: 8px;">
+                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;">
                       {% if link.icon %}
                       <i class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
                     {% else %}
@@ -219,7 +219,7 @@
                     {% endif %}
                     {%- else -%}
                     <a href="{{ link.url | relative_url }}"
-                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; border-radius: 8px;"><i
+                      style="margin: 5px; color: grey; border: 1px solid grey; padding: 5px; margin: 5px; border-radius: 8px;"><i
                         class="{{ link.icon }}" style="color: {{ link.iconcolor }};"></i> {{ link.title }} </a>
                     {% endif %}
                     {% endfor %}
