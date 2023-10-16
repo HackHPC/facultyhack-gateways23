@@ -26,13 +26,19 @@
 #
 #
 
+### Add link to ics file that has all other ics files merged
+
+mergedicsfile: assets/ics_files/FacultyHack-AllSessions.ics
+
+###
+
 general_schedule:
   ## date time format example '2012-01-26T13:51:50.417-04:00'
   - date: "2023-10-16T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Hackathon_Kick-Off.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Monday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -62,7 +68,7 @@ general_schedule:
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_1st_Checkin-Team_Introductions.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Tuesday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -94,7 +100,7 @@ general_schedule:
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Wednesday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -111,7 +117,7 @@ general_schedule:
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Thursday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -126,7 +132,7 @@ general_schedule:
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Friday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -138,7 +144,7 @@ general_schedule:
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Saturday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -150,7 +156,7 @@ general_schedule:
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
+    icsfile: assets/ics_files/FacultyHackGateways23-Sunday.ics
     #    #location: Westin 6th Floor - Chastain F Room
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
@@ -161,11 +167,11 @@ general_schedule:
       - name: ORNL Faculty Resources
         type: Presentation
 
-  - date: "2023-10-29T18:40(-04:00)"
+  - date: "2023-10-30T18:40(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
-    #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
+    icsfile: assets/ics_files/Gateways23-PosterSession.ics
     location: The Landing Hotel
     address: "The Landing Hotel, 777 Casino Drive, Pittsburgh, PA 15212"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
