@@ -64,6 +64,8 @@ codeplatforms:
   url: https://github.com/codespaceshttps://docs.github.com/en/codespaces/getting-started/quickstart
 - name: Shutting down / Stopping Codespaces
   url: https://docs.github.com/en/codespaces/developing-in-codespaces/stopping-and-starting-a-codespace
+- name: Sage Maker
+  url: https://aws.amazon.com/sagemaker
 
 
 uiuxdesign:
