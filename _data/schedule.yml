@@ -51,7 +51,7 @@ general_schedule:
         links:
           - title: Poster Template
             icon: fa-regular fa-file-powerpoint
-            url: "assets/slides/pre-event_training/2023_FacultyHack-GatewaysPoster-withfeedback.pptx"
+            url: "resources/2023_FacultyHack-GatewaysPoster-withfeedback.pptx"
             iconcolor: darkred
           - title: Zoom Virtual Background
             icon: "fa-solid fa-file-image"
@@ -63,6 +63,11 @@ general_schedule:
       #            url: "https://youtu.be/w1TYSF3z_IY"
       - name: GitHub use in the Classroom
         type: Training
+        links:  
+          - title: Slide Deck
+            url: assets/slides/pre-event_training/FacultyHack23-PosterOverview-GitHubOverview.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
 
   - date: "2023-10-17T17:00(-04:00)"
     session: Afternoon
