@@ -28,7 +28,7 @@
 
 general_schedule:
   ## date time format example '2012-01-26T13:51:50.417-04:00'
-  - date: "2023-11-16T17:00(-04:00)"
+  - date: "2023-10-16T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -37,7 +37,7 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Poster Template and GitHub
     events:
       - name: Gateways23 Poster Session Overview
@@ -54,7 +54,7 @@ general_schedule:
       - name: GitHub use in the Classroom
         type: Training
 
-  - date: "2023-11-17T17:00(-04:00)"
+  - date: "2023-10-17T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -63,7 +63,7 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: HPC Overview
     events:
       - name: HPC Overview
@@ -86,7 +86,7 @@ general_schedule:
   #            url: "https://youtu.be/8bbOohYJumg"#
 
   #
-  - date: "2023-11-18T17:00(-04:00)"
+  - date: "2023-10-18T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -95,7 +95,7 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Science Gateways Overview
     events:
       - name: SGX3 Catalog
@@ -103,7 +103,7 @@ general_schedule:
       - name: HPC-ED Training Resource
         type: Training
 
-  - date: "2023-11-19T17:00(-04:00)"
+  - date: "2023-10-19T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -112,13 +112,13 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Hackathon Kick-Off
     events:
       - name: Omnibond Eureka
         type: Training
 
-  - date: "2023-11-20T17:00(-04:00)"
+  - date: "2023-10-20T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -127,10 +127,10 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Team Checkin
 
-  - date: "2023-11-21T17:00(-04:00)"
+  - date: "2023-10-21T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -139,10 +139,10 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Team Checkin
 
-  - date: "2023-11-22T17:00(-04:00)"
+  - date: "2023-10-22T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
@@ -151,20 +151,20 @@ general_schedule:
     #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Team Checkin
     events:
       - name: ORNL Faculty Resources
         type: Presentation
 
-  - date: "2023-11-29T18:40(-04:00)"
+  - date: "2023-10-29T18:40(-04:00)"
     session: Afternoon
     #    length: 02:00
     timezone: EDT
     #    icsfile: assets/ics_files/HackHPC_ADMI23_Day_2_Morning_Checkin.ics
-    location: The Landing Hotel, 777 Casino Drive, Pittsburgh, PA 15212
-    #    #address: "Westin Peachtree Plaza Hotel (210 Peachtree St NW, Atlanta, GA 30303)"
+    location: The Landing Hotel
+    address: "The Landing Hotel, 777 Casino Drive, Pittsburgh, PA 15212"
     #    #googlemap: "https://goo.gl/maps/URaSgXRP6uoLzgdVA?coh=178572&entry=tt"
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
-    #    zoomlink: https://us02web.zoom.us/j/84805715930?pwd=bEVKSE9NM1U1R3VzL2p1ejJPSlpoQT09
+    zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Poster Session
