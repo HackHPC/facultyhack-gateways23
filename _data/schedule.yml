@@ -106,7 +106,7 @@ general_schedule:
         type: Training
         links:
           - title: Session Slide Deck
-            url:  assets/slides/pre-event_training/FacultyHack23-SGX3_HPCEDpdf.pdf
+            url:  assets/slides/pre-event_training/FacultyHack23-SGX3_HPCED.pdf
             icon: fa-regular fa-file-pdf
             iconcolor: red
 
