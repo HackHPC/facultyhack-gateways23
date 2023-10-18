@@ -46,7 +46,7 @@ general_schedule:
     zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Poster Template and GitHub
     events:
-      - name: Gateways23 Poster Session Overview
+      - name: Gateways23 Poster and GitHub Overview
         type: Training
         links:
           - title: Poster Template
@@ -57,17 +57,16 @@ general_schedule:
             icon: "fa-solid fa-file-image"
             url: "assets/imgs/SGX3FacultyHack2023_ZoomBG1.png"
             iconcolor: blue 
-      #          - title: YouTube Video
-      #            icon: "fab fa-youtube" #fa-regular fa-file-pdf
-      #            iconcolor: red
-      #            url: "https://youtu.be/w1TYSF3z_IY"
-      - name: GitHub use in the Classroom
-        type: Training
-        links:  
-          - title: Slide Deck
+          - title: YouTube Video
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+            url: "https://youtu.be/yQzUcT71mwo"
+          - title: Session Slide Deck
             url: assets/slides/pre-event_training/FacultyHack23-PosterOverview-GitHubOverview.pdf
             icon: fa-regular fa-file-pdf
             iconcolor: red
+       
+          
 
   - date: "2023-10-17T17:00(-04:00)"
     session: Afternoon
@@ -83,22 +82,12 @@ general_schedule:
     events:
       - name: HPC Overview
         type: Training
-  #        description: >
-  #          1-Slide/1-Minute with: <br>
-  #          &nbsp;&nbsp; - Team Name <br>
-  #          &nbsp;&nbsp; - Team Mentor(s) <br>
-  #          &nbsp;&nbsp; - Team Members <br>
-  #          &nbsp;&nbsp; - Team Zoom Virtual Background <br>
-  #          &nbsp;&nbsp; - Team Theme Song <br>
-  #        links:
-  #          - title: Slide Deck
-  #            icon: fa-regular fa-file-pdf
-  #            url: "assets/slides/Team Introductions.pdf"
-  #            iconcolor: red
-  #          - title: YouTube Video
-  #            icon: "fab fa-youtube" #fa-regular fa-file-pdf
-  #            iconcolor: red
-  #            url: "https://youtu.be/8bbOohYJumg"#
+        links: 
+          - title: YouTube Video
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+            url: "https://youtu.be/o2GPaSwOcjg"
+          
 
   #
   - date: "2023-10-18T17:00(-04:00)"
