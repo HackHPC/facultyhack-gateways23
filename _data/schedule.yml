@@ -109,6 +109,25 @@ general_schedule:
             url:  assets/slides/pre-event_training/FacultyHack23-SGX3_HPCED.pdf
             icon: fa-regular fa-file-pdf
             iconcolor: red
+          - title: Session Video
+            icon: "fab fa-youtube" #fa-regular fa-file-pdf
+            iconcolor: red
+            url: "https://youtu.be/VVvyKx_2sBg"
+          - title: Science Gateways Catalog 
+            url: https://sciencegateways.org/education-training/resources
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: HPC-ED
+            url: https://hpc-ed.github.io
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: HPC-ED Jamboard Output
+            url: assets/slides/pre-event_training/FacultyHack-HPC-ED.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+
+
+
 
          
 
