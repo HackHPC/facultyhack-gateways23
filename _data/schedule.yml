@@ -139,7 +139,7 @@ general_schedule:
     zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Hackathon Kick-Off
     events:
-      - name: Omnibond Eureka
+      - name: "Omnibond's Project Eureka"
         type: Training
         links:
           - title: Omnibond Eureka
