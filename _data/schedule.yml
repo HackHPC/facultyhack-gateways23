@@ -127,10 +127,6 @@ general_schedule:
             iconcolor: red
 
 
-
-
-         
-
   - date: "2023-10-19T17:00(-04:00)"
     session: Afternoon
     #    length: 02:00
@@ -145,6 +141,17 @@ general_schedule:
     events:
       - name: Omnibond Eureka
         type: Training
+        links:
+          - title: Omnibond Eureka
+            url: https://gateways.omnibond.com/dex/auth/ldap/login?back=&state=ex3itqogp6xzbrbeuuq576uyc
+            icon: fa-solid fa-link
+            iconcolor: black
+          - title: Session Slide Deck
+            url: assets/slides/event/FacultyHack-Kickoff.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+
+
 
   - date: "2023-10-20T17:00(-04:00)"
     session: Afternoon
