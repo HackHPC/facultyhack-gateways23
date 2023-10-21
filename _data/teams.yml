@@ -17,9 +17,17 @@ teams:
     email: [rzhu.cs@gmail.com]
   themesong: https://www.youtube.com/watch?v=IyhJ69mD7xI
   themesongname: "George Thorogood & The Destroyers - Bad To The Bone"
-  zoombackground: {}
+  #zoombackground: {}
   projecturl: {}
-  projectgoals: {}
+  projectgoals: > 
+    <br>
+    Target Course(s): CS425 Parallel Programming and Algorithms, CS457 Wireless and Mobile Security
+    <br> 
+    <ul>
+    <li>Integrating HPC with Cybersecurity, Cryptography, and Machine Learning to develop curriculums</li>
+    <li>Identify applicable HPC resources from ORNL/wider HPC community and develop course descriptions<l/i>
+    <li>Create and refine course schedules, hands-on labs, etc.</li>
+    </ul>
   emojicode: {}
   links:
     - name: GitHub Repo
@@ -27,9 +35,9 @@ teams:
       icon: "fa-brands fa-github"
       iconcolor: black
   images:
-    - name: {}
-      url: {}
-      imagelink: {}
+    - name: Team Intro
+      url: teams/bulldogsteam/introslide.pdf
+      imagelink: teams/bulldogsteam/introslide.png
 
 - teamname: CAMSA Team
   mentor:

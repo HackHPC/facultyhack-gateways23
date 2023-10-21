@@ -1722,7 +1722,7 @@ sponsorssidebar-v a.sponsortext {
   background-color: darkgray;
   border-radius: 8px;
   border: 1px solid slategrey;
-  background-image: url("https://hackhpc.github.io/admi23/assets/imgs/HackHPCatADMI23-ai-logo-boardonly.jpeg");
+  background-image: url("https://hackhpc.github.io/facultyhack-gateways23/assets/imgs/SGX3FacultyHack2023_ZoomBG1-cropped.png");
 }
 
 .teams-h-container {
@@ -1732,7 +1732,7 @@ sponsorssidebar-v a.sponsortext {
   padding: 7px;
   border-radius: 8px;
   text-align: center;
-  background-color: lightsalmon;
+  background-color: slategray;
   width: auto;
 }
 
