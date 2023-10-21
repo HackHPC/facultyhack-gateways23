@@ -16,13 +16,14 @@
   padding: 7px;
   border-radius: 8px;
   text-align: center;
-  background-color: slategray;
+  background-color: rgba(1,60,89, 0 ) /* #0f4150 #3A87C4 */;
   width: auto;
 }
 
 .teams-h-container:hover {
     box-shadow: 2px 2px -4px 2px slategray;
     border: 3px solid slategray;
+    background-color: rgba(1, 29, 43, 0.75) /* rgba(1,60,89, .5 ) #0f4150 #3A87C4 */;
   }
 
 
@@ -54,13 +55,16 @@
 
 .teams-h-container a.teams-h {
     #color: slateblue;
-    color: black;
+    color: white;
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
 }
 
 .teams-h-container p.teams-h {
     font-size: small;
     text-align: center;
-    color: slategray;
+    color: gray;
+   
     
     width: 100%;
     

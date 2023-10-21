@@ -28,7 +28,7 @@ teams:
     <li>Identify applicable HPC resources from ORNL/wider HPC community and develop course descriptions<l/i>
     <li>Create and refine course schedules, hands-on labs, etc.</li>
     </ul>
-  emojicode: {}
+  #emojicode: {}
   links:
     - name: GitHub Repo
       url: https://github.com/ruikobe/KetteringTeamFacHack23
@@ -36,8 +36,11 @@ teams:
       iconcolor: black
   images:
     - name: Team Intro
-      url: teams/bulldogsteam/introslide.pdf
-      imagelink: teams/bulldogsteam/introslide.png
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
+    #- name: Team Intro
+    #  url: teams/bulldogsteam/introslide.pdf
+    #  imagelink: teams/bulldogsteam/introslide.png
 
 - teamname: CAMSA Team
   mentor:
@@ -58,19 +61,19 @@ teams:
     email: [alsmadi@gmail.com]
   themesong: {}
   themesongname: {}
-  zoombackground: {}
+  #zoombackground: {}
   projecturl: {}
   projectgoals: {}
-  emojicode: {}
+  #emojicode: {}
   links:
-    - name: {}
-      url: {}
-      icon: {}
-      iconcolor: {}
+    - name: GitHub Repo
+      url: https://github.com/alsmadi/CAMSA_Gateways_2023
+      icon: "fa-brands fa-github"
+      iconcolor: black
   images:
-    - name: {}
-      url: {}
-      imagelink: {}
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
 
 - teamname: Jarvis Bulldog Team
   mentor:
@@ -90,19 +93,19 @@ teams:
     email: [wsamyono@gmail.com]
   themesong: {}
   themesongname: {}
-  zoombackground: {}
+  #zoombackground: {}
   projecturl: {}
   projectgoals: {}
-  emojicode: {}
+  #emojicode: {}
   links:
-    - name: {}
-      url: {}
-      icon: {}
-      iconcolor: {}
+    - name: GitHub Repo
+      url: https://github.com/wsamyono/BulldogTeamFacHackGA23
+      icon: "fa-brands fa-github"
+      iconcolor: black
   images:
-    - name: {}
-      url: {}
-      imagelink: {}
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
 
 - teamname: Team Altair
   mentor:
@@ -126,16 +129,16 @@ teams:
   zoombackground: teams/teamaltair/teamaltair-zoombg.jpg
   projecturl: {}
   projectgoals: {}
-  emojicode: {}
+  #emojicode: {}
   links:
-    - name: {}
-      url: {}
-      icon: {}
-      iconcolor: {}
+    - name: GitHub Repo
+      url: https://github.com/bboscoe/gateways23
+      icon: "fa-brands fa-github"
+      iconcolor: black
   images:
-    - name: {}
-      url: {}
-      imagelink: {}
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
 
 - teamname: Team Tech Tigers
   mentor:
@@ -156,19 +159,19 @@ teams:
     email: [andrew.j.overton.sr@gmail.com, jacqueline.m.jackson@jsums.edu]
   themesong: {}
   themesongname: {}
-  zoombackground: {}
+  #zoombackground: {}
   projecturl: {}
   projectgoals: {}
-  emojicode: {}
+  #emojicode: {}
   links:
-    - name: {}
-      url: {}
-      icon: {}
-      iconcolor: {}
+    - name: GitHub Repo
+      url: https://github.com/jackson820/TeamTechTigers
+      icon: "fa-brands fa-github"
+      iconcolor: black
   images:
-    - name: {}
-      url: {}
-      imagelink: {}
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
 
 - teamname: ThreatTracker
   mentor:
@@ -192,13 +195,13 @@ teams:
   zoombackground: teams/threattracker/threattracker-zoombg.png
   projecturl: {}
   projectgoals: {}
-  emojicode: {}
+  #emojicode: {}
   links:
-    - name: {}
-      url: {}
-      icon: {}
-      iconcolor: {}
+    - name: GitHub Repo
+      url: https://github.com/Shan-Reddy/FacultyHack2023
+      icon: "fa-brands fa-github"
+      iconcolor: black
   images:
-    - name: {}
-      url: {}
-      imagelink: {}
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
