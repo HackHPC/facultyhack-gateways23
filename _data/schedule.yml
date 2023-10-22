@@ -219,10 +219,17 @@ general_schedule:
       - name: ORNL Faculty Resources
         type: Presentation
         links:
+          - title: Session Slide Deck
+            url: assets/slides/event/Saturday-checkin-course_resources_datasets.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
           - title: Post Event Survey
             url: https://forms.gle/S3Wx7DAoGeEQ11U9A
             icon: fa-solid fa-clipboard-question
             iconcolor: purple
+
+
+            
 
   - date: "2023-10-30T18:40(-04:00)"
     session: Afternoon
