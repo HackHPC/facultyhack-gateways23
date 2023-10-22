@@ -1,0 +1,217 @@
+teams:
+- teamname: Bulldogs Team
+  mentor:
+    names: [John Holmen, Yvonne Phillips]
+    affiliation: [Oak Ridge National Laboratory, Morehouse College]
+    affiliationurl: ['https://www.ornl.gov/', 'https://morehouse.edu/']
+    role: [Mentor, Assistant Mentor]
+    socials: ['https://www.ornl.gov/staff-profile/john-k-holmen', 'https://www.linkedin.com/in/yvonne-phillips-yourdatanarrator']
+    email: [holmenjk@ornl.gov, yvonne.phillips@morehouse.edu]
+  members:
+    names: [Rui Zhu]
+    affiliation: [Kettering University]
+    affiliationurl: ['https://www.kettering.edu/']
+    major: [Computer Science]
+    role: [Hacker / participant]
+    socials: ['https://www.linkedin.com/in/ruizhu23/']
+    email: [rzhu.cs@gmail.com]
+  themesong: https://www.youtube.com/watch?v=IyhJ69mD7xI
+  themesongname: "George Thorogood & The Destroyers - Bad To The Bone"
+  #zoombackground: {}
+  projecturl: {}
+  projectgoals: > 
+    <br>
+    Target Course(s): CS425 Parallel Programming and Algorithms, CS457 Wireless and Mobile Security
+    <br> 
+    <ul>
+    <li>Integrating HPC with Cybersecurity, Cryptography, and Machine Learning to develop curriculums</li>
+    <li>Identify applicable HPC resources from ORNL/wider HPC community and develop course descriptions<l/i>
+    <li>Create and refine course schedules, hands-on labs, etc.</li>
+    </ul>
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/ruikobe/KetteringTeamFacHack23
+      icon: "fa-brands fa-github"
+      iconcolor: black
+  images:
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
+    #- name: Team Intro
+    #  url: teams/bulldogsteam/introslide.pdf
+    #  imagelink: teams/bulldogsteam/introslide.png
+
+- teamname: CAMSA Team
+  mentor:
+    names: [Elijah  MacCarthy, Munene Kanampiu]
+    affiliation: [Oak Ridge National Laboratory, Winston-Salem State University]
+    affiliationurl: ['https://www.ornl.gov/', 'https://wssu.edu/']
+    role: [Mentor, Assistant Mentor]
+    socials: ['https://www.linkedin.com/in/elijah-maccarthy-ph-d-6176b293/',
+      'https://www.linkedin.com/in/munene-kanampiu-ph-d-1032508']
+    email: [maccarthyea@ornl.gov, kanampiumw@wssu.edu]
+  members:
+    names: [Izzat Alsmadi]
+    affiliation: ['Texas A&M, San Antonio']
+    affiliationurl: ['https://www.tamusa.edu/']
+    major: [Computing & Cybersecurity]
+    role: [Hacker / participant]
+    socials: [www.tamusa.edu]
+    email: [alsmadi@gmail.com]
+  themesong: {}
+  themesongname: {}
+  #zoombackground: {}
+  projecturl: {}
+  projectgoals: {}
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/alsmadi/CAMSA_Gateways_2023
+      icon: "fa-brands fa-github"
+      iconcolor: black
+  images:
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
+
+- teamname: Jarvis Bulldog Team
+  mentor:
+    names: [Jeaime Powell, Hector Santiago]
+    affiliation: [Texas Advanced Computing Center, Winston-Salem State University]
+    affiliationurl: ['https://tacc.utexas.edu/', 'https://wssu.edu/']
+    role: [Mentor, Assistant Mentor]
+    socials: ['https://www.linkedin.com/in/jeaimehp/', 'https://www.linkedin.com/in/hmsiii']
+    email: [jpowell@tacc.utexas.edu, hsantiago119@rams.wssu.edu]
+  members:
+    names: [Widodo Samyono]
+    affiliation: [Jarvis Christian University]
+    affiliationurl: ['https://www.jarvis.edu/ ']
+    major: [Mathematics]
+    role: [Hacker / participant]
+    socials: ['https://www.linkedin.com/in/widodosamyono']
+    email: [wsamyono@gmail.com]
+  themesong: {}
+  themesongname: {}
+  #zoombackground: {}
+  projecturl: {}
+  projectgoals: {}
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/wsamyono/BulldogTeamFacHackGA23
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: GitHub Pages Site
+      url: https://shan-reddy.github.io/SGX3-Faculty-Hackathon-2023/
+      icon: "fa-solid fa-globe"
+      iconcolor: black
+  images:
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
+
+- teamname: Team Altair
+  mentor:
+    names: [Veronica Vergara, Mohamed Elbakary]
+    affiliation: [Oak Ridge National Laboratory, Elizabeth City State University]
+    affiliationurl: ['https://www.ornl.gov/', 'https://ecsu.edu/']
+    role: [Mentor, Assistant Mentor]
+    socials: ['https://www.ornl.gov/staff-profile/veronica-g-melesse-vergara',
+      'https://www.ecsu.edu/directory/mohamed-elbakary.php']
+    email: [vergaravg@ornl.gov, melbakary@ecsu.edu]
+  members:
+    names: [Bernadette Boscoe]
+    affiliation: [Southern Oregon University]
+    affiliationurl: ['https://sou.edu/']
+    major: [Computer Science]
+    role: [Hacker / participant]
+    socials: ['https://www.bernieboscoe.com']
+    email: [bernieboscoe@gmail.com]
+  themesong: {}
+  themesongname: {}
+  zoombackground: teams/teamaltair/teamaltair-zoombg.jpg
+  projecturl: {}
+  projectgoals: {}
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/bboscoe/gateways23
+      icon: "fa-brands fa-github"
+      iconcolor: black
+  images:
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
+
+- teamname: Team Tech Tigers
+  mentor:
+    names: [Alfred Watkins, Fernanda Foertter]
+    affiliation: [Morehouse College, Voltron Data]
+    affiliationurl: ['https://morehouse.edu/', 'https://voltrondata.com/']
+    role: [Assistant Mentor, Mentor]
+    socials: ['https://www.linkedin.com/in/alfred-watkins-85890b5/', 'https://www.linkedin.com/in/foertter']
+    email: [alfred.watkins@morehouse.edu, fernanda@voltrondata.com]
+  members:
+    names: [Andrew Overton, Jacqueline Jackson]
+    affiliation: [Jackson State University, Jackson State University]
+    affiliationurl: ['https://www.jsums.edu/', 'https://www.jsums.edu/']
+    major: ['Computer Science & Computer Engineering ', 'Computer Science
+        & Computer Engineering ']
+    role: [Hacker / participant, Hacker / participant]
+    socials: [' https://www.facebook.com/andrew.overton.731', 'https://www.linkedin.com/in/jacqueline-jackson-1a967527']
+    email: [andrew.j.overton.sr@gmail.com, jacqueline.m.jackson@jsums.edu]
+  themesong: {}
+  themesongname: {}
+  #zoombackground: {}
+  projecturl: {}
+  projectgoals: {}
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/jackson820/TeamTechTigers
+      icon: "fa-brands fa-github"
+      iconcolor: black
+  images:
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
+
+- teamname: ThreatTracker
+  mentor:
+    names: [Hector Hernandez, Yvonne Phillips]
+    affiliation: [Oak Ridge National Laboratory, Morehouse College]
+    affiliationurl: ['https://www.ornl.gov/', 'https://morehouse.edu/']
+    role: [Mentor, Assistant Mentor]
+    socials: ['https://www.ornl.gov/staff-profile/hector-f-hernandez-corzo',
+      'https://www.linkedin.com/in/yvonne-phillips-yourdatanarrator']
+    email: [hernandezchf@ornl.gov, yvonne.phillips@morehouse.edu]
+  members:
+    names: [Shan Reddy]
+    affiliation: [University of North Carolina at Pembroke]
+    affiliationurl: ['https://www.uncp.edu/']
+    major: [Computer Science & Cybersecurity]
+    role: [Hacker / participant]
+    socials: ['https://www.uncp.edu/profile/prashanth-busireddygari-phd']
+    email: [prashanthreddys91@gmail.com]
+  themesong: {}
+  themesongname: {}
+  zoombackground: teams/threattracker/threattracker-zoombg.png
+  projecturl: {}
+  projectgoals: {}
+  #emojicode: {}
+  links:
+    - name: GitHub Repo
+      url: https://github.com/Shan-Reddy/FacultyHack2023
+      icon: "fa-brands fa-github"
+      iconcolor: black
+    - name: Syllabus Course Site
+      url: https://shan-reddy.github.io/SGX3-Faculty-Hackathon-2023/Home.html
+      icon: "fa-solid fa-globe"
+      iconcolor: black
+
+      
+  images:
+    - name: Team Intro
+      url: assets/slides/event/FacultyHack-Day2.pdf
+      imagelink: assets/imgs/SGX3FacultyHack2023_ZoomBG1.png
