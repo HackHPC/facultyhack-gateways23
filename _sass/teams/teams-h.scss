@@ -1,7 +1,6 @@
 .teams-h-main {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-bottom: 20px;
     background-color: darkgray;
     border-radius: 8px;
@@ -18,13 +17,26 @@
   border-radius: 8px;
   text-align: center;
   background-color: rgba(1,60,89, 0 ) /* #0f4150 #3A87C4 */;
-  width: 20%;
+  width: auto;
 }
 
 .teams-h-container:hover {
-    box-shadow: 2px 2px -4px 2px slategray;
-    border: 3px solid slategray;
-    background-color: rgba(1, 29, 43, 0.75) /* rgba(1,60,89, .5 ) #0f4150 #3A87C4 */;
+    //box-shadow: 2px 2px -4px 2px slategray;
+    //border: 3px solid slategray;
+    #background-color: rgba(1, 29, 43, 0.75) /* rgba(1,60,89, .5 ) #0f4150 #3A87C4 */;
+    background-image: linear-gradient(#F9943B, #0f4150 );
+
+    //$darkbrand-color: #0f4150;
+    //$accentbrand-color: #F9943B; 
+
+    p.teams-h {
+        font-size: small;
+        text-align: center;
+        color: rgba(1, 29, 43, 1);
+
+        
+    }
+
   }
 
 
@@ -64,9 +76,7 @@
 .teams-h-container p.teams-h {
     font-size: small;
     text-align: center;
-    color: gray;
-   
-    
+    color: rgba(1, 29, 43, 0.0);
     width: 100%;
     
 }

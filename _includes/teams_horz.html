@@ -11,20 +11,27 @@
           <div class="teams-h-bottom">
             <h3 class="teams-h"><a class="teams-h" href="{{ site.url }}{{ site.baseurl }}/teams.html#{{ team.teamname }}" target="_self"> {{ team.emojicode }} {{ team.teamname }}</a></h3> 
             
-            <!--
+            
             <p class="teams-h"> 
-              {% for mentor in team.mentor.names %}
-                {{ mentor }}(M) &#x2022; 
-              {% endfor %}
+              
+
               {% for member in team.members.names %}
                 {% if forloop.last == true %}
-                  {{ member }} 
+                <br>
+                &#x2022; {{ member }} 
                 {% else %}  
-                  {{ member }} &#x2022;
+                <br> 
+                &#x2022; {{ member }} 
                 {% endif %}
               {% endfor %}
+
+              {% for mentor in team.mentor.names %}
+              &#x2022; {{ mentor }}(M) <br>
+              {% endfor %}
+              
+            
             </p>
-            -->
+            
           </div>
        </div>
       {% endfor %}

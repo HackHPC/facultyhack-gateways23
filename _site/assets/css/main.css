@@ -1718,7 +1718,6 @@ sponsorssidebar-v a.sponsortext {
 .teams-h-main {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   margin-bottom: 20px;
   background-color: darkgray;
   border-radius: 8px;
@@ -1734,13 +1733,17 @@ sponsorssidebar-v a.sponsortext {
   border-radius: 8px;
   text-align: center;
   background-color: rgba(1, 60, 89, 0);
-  width: 20%;
+  width: auto;
 }
 
 .teams-h-container:hover {
-  box-shadow: 2px 2px -4px 2px slategray;
-  border: 3px solid slategray;
-  background-color: rgba(1, 29, 43, 0.75);
+  #background-color: rgba(1, 29, 43, 0.75);
+  background-image: linear-gradient(#F9943B, #0f4150);
+}
+.teams-h-container:hover p.teams-h {
+  font-size: small;
+  text-align: center;
+  color: rgb(1, 29, 43);
 }
 
 .teams-h-container .teams-h-top img.teams-h {
@@ -1769,7 +1772,7 @@ sponsorssidebar-v a.sponsortext {
 .teams-h-container p.teams-h {
   font-size: small;
   text-align: center;
-  color: gray;
+  color: rgba(1, 29, 43, 0);
   width: 100%;
 }
 

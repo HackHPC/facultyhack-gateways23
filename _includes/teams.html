@@ -30,32 +30,9 @@
          
 
       <div style="width: 30%;">
-    <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Mentors:</h3>
+    
 
-      <ul>
-        {% for member in team.mentor.names %}
-        <li><strong>{{ member }}</strong> 
-          {% if  team.mentor.socials[forloop.index0 ] %} 
-          {% if  team.mentor.email[forloop.index0 ] %} 
-          <a href="mailto:{{ team.mentor.email[forloop.index0 ] }}"><i style="color: black" class="fas fa-envelope"></i></a>
-         
-          {% endif %}
-             {% if team.mentor.socials[forloop.index0 ] contains "linkedin" %}
-              <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: darkblue" class="fab fa-linkedin"></i></a>
-             {% elsif team.mentor.socials[forloop.index0 ] contains "twitter" %}
-             <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: blue" class="fab fa-twitter"></i></a>
-             {% else %}
-             <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: black" class="fa-solid fa-user"></i></a>
-              {% endif %}          
-             {% endif %}
-            
-
-             <br> <a href="{{ team.mentor.affiliationurl[forloop.index0 ] }}"> {{ team.mentor.affiliation[forloop.index0 ] }} </a><br>
-        
-      
-            </li>
-     {% endfor %}
-      </ul>
+    
     
     
       <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Members: </h3>
@@ -93,6 +70,31 @@
         {% endfor %}
              
        </ul>  
+       <h3 style="margin-top: 0; margin-bottom: 5px;"> Team Mentors:</h3>
+       <ul>
+        {% for member in team.mentor.names %}
+        <li><strong>{{ member }}</strong> 
+          {% if  team.mentor.socials[forloop.index0 ] %} 
+          {% if  team.mentor.email[forloop.index0 ] %} 
+          <a href="mailto:{{ team.mentor.email[forloop.index0 ] }}"><i style="color: black" class="fas fa-envelope"></i></a>
+         
+          {% endif %}
+             {% if team.mentor.socials[forloop.index0 ] contains "linkedin" %}
+              <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: darkblue" class="fab fa-linkedin"></i></a>
+             {% elsif team.mentor.socials[forloop.index0 ] contains "twitter" %}
+             <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: blue" class="fab fa-twitter"></i></a>
+             {% else %}
+             <a href="{{ team.mentor.socials[forloop.index0 ] }}"><i style="color: black" class="fa-solid fa-user"></i></a>
+              {% endif %}          
+             {% endif %}
+            
+
+             <br> <a href="{{ team.mentor.affiliationurl[forloop.index0 ] }}"> {{ team.mentor.affiliation[forloop.index0 ] }} </a><br>
+        
+      
+            </li>
+     {% endfor %}
+      </ul>
 
     
 
