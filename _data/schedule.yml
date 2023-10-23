@@ -203,6 +203,22 @@ general_schedule:
     #    #locationmap: "assets/imgs/westin-6thfloor-map.jpeg"
     zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Team Checkin
+    events:
+      - name: Faculty Course Updates 
+        links:
+          - title: Session Slide Deck
+            url: assets/slides/event/Saturday-checkin-course_resources_datasets.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+          - title: Faculty Updates Slide Deck
+            url: assets/slides/event/FacultyHack-Day3-SaturdayCheckIn.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+
+
+
+
+
 
   - date: "2023-10-22T17:00(-04:00)"
     session: Afternoon
@@ -216,11 +232,17 @@ general_schedule:
     zoomlink: https://utexas.zoom.us/j/97896041524
     theme: Team Checkin
     events:
-      - name: ORNL Faculty Resources
+      - name: ORNL Pathways to Supercomputing
         type: Presentation
         links:
+          - title: ORNL Slide Deck
+            url: assets/slides/event/ORNL-Pathways-FacultyHack.pdf
+            icon: fa-regular fa-file-pdf
+            iconcolor: red
+      - name: Faculty Course Updates 
+        links:
           - title: Session Slide Deck
-            url: assets/slides/event/Saturday-checkin-course_resources_datasets.pdf
+            url: assets/slides/event/FacultyHack23-SundayCheckin.pdf
             icon: fa-regular fa-file-pdf
             iconcolor: red
           - title: Post Event Survey

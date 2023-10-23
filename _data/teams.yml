@@ -99,11 +99,11 @@ teams:
   #emojicode: {}
   links:
     - name: GitHub Repo
-      url: https://github.com/wsamyono/BulldogTeamFacHackGA23
+      url: https://github.com/wsamyono/BulldogTeamFacHackGW23
       icon: "fa-brands fa-github"
       iconcolor: black
     - name: GitHub Pages Site
-      url: https://shan-reddy.github.io/SGX3-Faculty-Hackathon-2023/
+      url: wsamyono.github.io/BulldogTeamFacHackGW23/
       icon: "fa-solid fa-globe"
       iconcolor: black
   images:
