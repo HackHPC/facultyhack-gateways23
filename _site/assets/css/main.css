@@ -1718,6 +1718,7 @@ sponsorssidebar-v a.sponsortext {
 .teams-h-main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   background-color: darkgray;
   border-radius: 8px;
@@ -1733,7 +1734,7 @@ sponsorssidebar-v a.sponsortext {
   border-radius: 8px;
   text-align: center;
   background-color: rgba(1, 60, 89, 0);
-  width: auto;
+  width: 20%;
 }
 
 .teams-h-container:hover {

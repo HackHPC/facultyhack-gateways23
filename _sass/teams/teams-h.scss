@@ -1,6 +1,7 @@
 .teams-h-main {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     background-color: darkgray;
     border-radius: 8px;
@@ -17,7 +18,7 @@
   border-radius: 8px;
   text-align: center;
   background-color: rgba(1,60,89, 0 ) /* #0f4150 #3A87C4 */;
-  width: auto;
+  width: 20%;
 }
 
 .teams-h-container:hover {
